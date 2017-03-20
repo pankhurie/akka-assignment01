@@ -1,0 +1,2 @@
+package com knoldus question2
+import akka actor

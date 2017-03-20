@@ -4,7 +4,7 @@
 		module="akka-demo01$sbt_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20170316121517"
+		publication="20170320162159"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

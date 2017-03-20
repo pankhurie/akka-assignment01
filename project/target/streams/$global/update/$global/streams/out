@@ -16,7 +16,7 @@
 [debug] == resolving dependencies for default#akka-demo01-build;0.1-SNAPSHOT [provided]
 [debug] == resolving dependencies default#akka-demo01-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@668073c9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@698e738b
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-library;2.10.4
@@ -1766,7 +1766,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 2992ms :: artifacts dl 103ms
+[debug] :: resolution report :: resolve 1963ms :: artifacts dl 56ms
 [debug] 	report for default#akka-demo01-build;0.1-SNAPSHOT compile produced in /home/knoldus/Documents/KIPSolutions/slick/akka-demo01/project/target/resolution-cache/reports/default-akka-demo01-build-compile.xml
 [debug] 	report for default#akka-demo01-build;0.1-SNAPSHOT runtime produced in /home/knoldus/Documents/KIPSolutions/slick/akka-demo01/project/target/resolution-cache/reports/default-akka-demo01-build-runtime.xml
 [debug] 	report for default#akka-demo01-build;0.1-SNAPSHOT test produced in /home/knoldus/Documents/KIPSolutions/slick/akka-demo01/project/target/resolution-cache/reports/default-akka-demo01-build-test.xml
@@ -1780,5 +1780,5 @@
 [debug] 	report for default#akka-demo01-build;0.1-SNAPSHOT docs produced in /home/knoldus/Documents/KIPSolutions/slick/akka-demo01/project/target/resolution-cache/reports/default-akka-demo01-build-docs.xml
 [debug] 	report for default#akka-demo01-build;0.1-SNAPSHOT pom produced in /home/knoldus/Documents/KIPSolutions/slick/akka-demo01/project/target/resolution-cache/reports/default-akka-demo01-build-pom.xml
 [debug] 	report for default#akka-demo01-build;0.1-SNAPSHOT scala-tool produced in /home/knoldus/Documents/KIPSolutions/slick/akka-demo01/project/target/resolution-cache/reports/default-akka-demo01-build-scala-tool.xml
-[debug] 	resolve done (2992ms resolve - 103ms download)
+[debug] 	resolve done (1963ms resolve - 56ms download)
 [info] Done updating.

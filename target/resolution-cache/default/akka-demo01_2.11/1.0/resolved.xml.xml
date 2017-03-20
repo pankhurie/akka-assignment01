@@ -4,7 +4,7 @@
 		module="akka-demo01_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20170316121247"
+		publication="20170320162159"
 	>
 		<description>
 		akka-demo01
@@ -36,5 +36,6 @@
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.8" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-actor_2.11" rev="2.4.17" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-testkit_2.11" rev="2.4.17" conf="compile->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.11" rev="3.0.1" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

@@ -7,7 +7,7 @@
 [debug] == resolving dependencies for default#akka-demo01_2.11;1.0 [compile]
 [debug] == resolving dependencies default#akka-demo01_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@21e912da
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@760224a8
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
@@ -17,27 +17,8 @@
 [debug] == resolving dependencies default#akka-demo01_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.17 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-actor_2.11;2.4.17 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.11;2.4.17 {compile=[default(compile)]}
-[info] Resolving com.typesafe.akka#akka-actor_2.11;2.4.17 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.11;2.4.17 {compile=[default(compile)]}
-[debug] 		tried /home/knoldus/.ivy2/local/com.typesafe.akka/akka-actor_2.11/2.4.17/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.akka#akka-actor_2.11;2.4.17
-[debug] 		tried /home/knoldus/.activator/repository/com.typesafe.akka/akka-actor_2.11/2.4.17/ivys/ivy.xml
-[debug] 	activator-launcher-local: no ivy file found for com.typesafe.akka#akka-actor_2.11;2.4.17
-[debug] 		tried /home/knoldus/Application/activator-dist-1.3.12/repository/com.typesafe.akka/akka-actor_2.11/2.4.17/ivys/ivy.xml
-[debug] 	activator-local: no ivy file found for com.typesafe.akka#akka-actor_2.11;2.4.17
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.17/akka-actor_2.11-2.4.17.pom
-[debug] 	public: found md file for com.typesafe.akka#akka-actor_2.11;2.4.17
-[debug] 		=> https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.17/akka-actor_2.11-2.4.17.pom (2.4.17)
-[debug] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.17/akka-actor_2.11-2.4.17.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.17/akka-actor_2.11-2.4.17.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.17/akka-actor_2.11-2.4.17.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.17/akka-actor_2.11-2.4.17.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.11;2.4.17!akka-actor_2.11.pom(pom.original) (1088ms)
-[debug] 		tried /home/knoldus/.ivy2/local/com.typesafe.akka/akka-actor_2.11/2.4.17/jars/akka-actor_2.11.jar
-[debug] 		tried /home/knoldus/.activator/repository/com.typesafe.akka/akka-actor_2.11/2.4.17/jars/akka-actor_2.11.jar
-[debug] 		tried /home/knoldus/Application/activator-dist-1.3.12/repository/com.typesafe.akka/akka-actor_2.11/2.4.17/jars/akka-actor_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.17/akka-actor_2.11-2.4.17.jar
-[debug] 	found com.typesafe.akka#akka-actor_2.11;2.4.17 in public
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.4.17
+[debug] 	found com.typesafe.akka#akka-actor_2.11;2.4.17 in sbt-chain
 [debug] 	[2.4.17] com.typesafe.akka#akka-actor_2.11;2.4.17
 [debug] == resolving dependencies default#akka-demo01_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.17 [compile->runtime]
 [debug] == resolving dependencies default#akka-demo01_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.17 [compile->compile]
@@ -78,27 +59,8 @@
 [debug] == resolving dependencies default#akka-demo01_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.17 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-testkit_2.11;2.4.17 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-testkit_2.11;2.4.17 {compile=[default(compile)]}
-[info] Resolving com.typesafe.akka#akka-testkit_2.11;2.4.17 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.akka#akka-testkit_2.11;2.4.17 {compile=[default(compile)]}
-[debug] 		tried /home/knoldus/.ivy2/local/com.typesafe.akka/akka-testkit_2.11/2.4.17/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.akka#akka-testkit_2.11;2.4.17
-[debug] 		tried /home/knoldus/.activator/repository/com.typesafe.akka/akka-testkit_2.11/2.4.17/ivys/ivy.xml
-[debug] 	activator-launcher-local: no ivy file found for com.typesafe.akka#akka-testkit_2.11;2.4.17
-[debug] 		tried /home/knoldus/Application/activator-dist-1.3.12/repository/com.typesafe.akka/akka-testkit_2.11/2.4.17/ivys/ivy.xml
-[debug] 	activator-local: no ivy file found for com.typesafe.akka#akka-testkit_2.11;2.4.17
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.4.17/akka-testkit_2.11-2.4.17.pom
-[debug] 	public: found md file for com.typesafe.akka#akka-testkit_2.11;2.4.17
-[debug] 		=> https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.4.17/akka-testkit_2.11-2.4.17.pom (2.4.17)
-[debug] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.4.17/akka-testkit_2.11-2.4.17.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.4.17/akka-testkit_2.11-2.4.17.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.4.17/akka-testkit_2.11-2.4.17.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.4.17/akka-testkit_2.11-2.4.17.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-testkit_2.11;2.4.17!akka-testkit_2.11.pom(pom.original) (1110ms)
-[debug] 		tried /home/knoldus/.ivy2/local/com.typesafe.akka/akka-testkit_2.11/2.4.17/jars/akka-testkit_2.11.jar
-[debug] 		tried /home/knoldus/.activator/repository/com.typesafe.akka/akka-testkit_2.11/2.4.17/jars/akka-testkit_2.11.jar
-[debug] 		tried /home/knoldus/Application/activator-dist-1.3.12/repository/com.typesafe.akka/akka-testkit_2.11/2.4.17/jars/akka-testkit_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.4.17/akka-testkit_2.11-2.4.17.jar
-[debug] 	found com.typesafe.akka#akka-testkit_2.11;2.4.17 in public
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-testkit_2.11;2.4.17
+[debug] 	found com.typesafe.akka#akka-testkit_2.11;2.4.17 in sbt-chain
 [debug] 	[2.4.17] com.typesafe.akka#akka-testkit_2.11;2.4.17
 [debug] == resolving dependencies default#akka-demo01_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.17 [compile->runtime]
 [debug] == resolving dependencies default#akka-demo01_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.17 [compile->compile]
@@ -113,6 +75,85 @@
 [debug] == resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.17->com.typesafe.akka#akka-actor_2.11;2.4.17 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.17->com.typesafe.akka#akka-actor_2.11;2.4.17 [runtime->compile]
 [debug] == resolving dependencies default#akka-demo01_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.17 [compile->master]
+[debug] == resolving dependencies default#akka-demo01_2.11;1.0->org.scalatest#scalatest_2.11;3.0.1 [compile->default(compile)]
+[info] Resolving org.scalatest#scalatest_2.11;3.0.1 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.11;3.0.1 {compile=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;3.0.1
+[debug] 	found org.scalatest#scalatest_2.11;3.0.1 in sbt-chain
+[debug] == resolving dependencies default#akka-demo01_2.11;1.0->org.scalatest#scalatest_2.11;3.0.1 [compile->runtime]
+[debug] == resolving dependencies default#akka-demo01_2.11;1.0->org.scalatest#scalatest_2.11;3.0.1 [compile->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scalactic#scalactic_2.11;3.0.1 [compile->master(compile)]
+[info] Resolving org.scalactic#scalactic_2.11;3.0.1 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scalactic#scalactic_2.11;3.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scalactic#scalactic_2.11;3.0.1
+[debug] 	found org.scalactic#scalactic_2.11;3.0.1 in sbt-chain
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scalactic#scalactic_2.11;3.0.1 [compile->compile(*)]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)]
+[info] Resolving org.scala-lang#scala-reflect;2.11.8 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.8
+[debug] 	found org.scala-lang#scala-reflect;2.11.8 in sbt-chain
+[debug] 	[2.11.8] org.scala-lang#scala-reflect;2.11.8
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [compile->runtime(*)]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scalactic#scalactic_2.11;3.0.1 [compile->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scalactic#scalactic_2.11;3.0.1 [compile->compile]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->master(compile)]
+[info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.5 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.5
+[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.5 in sbt-chain
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)]
+[info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
+[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scalactic#scalactic_2.11;3.0.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scalactic#scalactic_2.11;3.0.1 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
+[debug] == resolving dependencies default#akka-demo01_2.11;1.0->org.scalatest#scalatest_2.11;3.0.1 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for default#akka-demo01_2.11;1.0 [runtime]
 [debug] == resolving dependencies for default#akka-demo01_2.11;1.0 [compile]
@@ -155,6 +196,56 @@
 [debug] == resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.17->com.typesafe.akka#akka-actor_2.11;2.4.17 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.17->com.typesafe.akka#akka-actor_2.11;2.4.17 [runtime->compile]
 [debug] == resolving dependencies default#akka-demo01_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.17 [compile->master]
+[debug] == resolving dependencies default#akka-demo01_2.11;1.0->org.scalatest#scalatest_2.11;3.0.1 [compile->default(compile)]
+[debug] == resolving dependencies default#akka-demo01_2.11;1.0->org.scalatest#scalatest_2.11;3.0.1 [compile->runtime]
+[debug] == resolving dependencies default#akka-demo01_2.11;1.0->org.scalatest#scalatest_2.11;3.0.1 [compile->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scalactic#scalactic_2.11;3.0.1 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scalactic#scalactic_2.11;3.0.1 [compile->compile(*)]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scalactic#scalactic_2.11;3.0.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scalactic#scalactic_2.11;3.0.1 [runtime->compile]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies default#akka-demo01_2.11;1.0->org.scalatest#scalatest_2.11;3.0.1 [compile->master]
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for default#akka-demo01_2.11;1.0 [test]
 [debug] == resolving dependencies for default#akka-demo01_2.11;1.0 [runtime]
@@ -198,6 +289,56 @@
 [debug] == resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.17->com.typesafe.akka#akka-actor_2.11;2.4.17 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.17->com.typesafe.akka#akka-actor_2.11;2.4.17 [runtime->compile]
 [debug] == resolving dependencies default#akka-demo01_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.17 [compile->master]
+[debug] == resolving dependencies default#akka-demo01_2.11;1.0->org.scalatest#scalatest_2.11;3.0.1 [compile->default(compile)]
+[debug] == resolving dependencies default#akka-demo01_2.11;1.0->org.scalatest#scalatest_2.11;3.0.1 [compile->runtime]
+[debug] == resolving dependencies default#akka-demo01_2.11;1.0->org.scalatest#scalatest_2.11;3.0.1 [compile->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scalactic#scalactic_2.11;3.0.1 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scalactic#scalactic_2.11;3.0.1 [compile->compile(*)]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scalactic#scalactic_2.11;3.0.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scalactic#scalactic_2.11;3.0.1 [runtime->compile]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies default#akka-demo01_2.11;1.0->org.scalatest#scalatest_2.11;3.0.1 [compile->master]
 [debug] resolving dependencies for configuration 'provided'
 [debug] == resolving dependencies for default#akka-demo01_2.11;1.0 [provided]
 [debug] resolving dependencies for configuration 'optional'
@@ -244,6 +385,56 @@
 [debug] == resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.17->com.typesafe.akka#akka-actor_2.11;2.4.17 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.17->com.typesafe.akka#akka-actor_2.11;2.4.17 [runtime->compile]
 [debug] == resolving dependencies default#akka-demo01_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.17 [compile->master]
+[debug] == resolving dependencies default#akka-demo01_2.11;1.0->org.scalatest#scalatest_2.11;3.0.1 [compile->default(compile)]
+[debug] == resolving dependencies default#akka-demo01_2.11;1.0->org.scalatest#scalatest_2.11;3.0.1 [compile->runtime]
+[debug] == resolving dependencies default#akka-demo01_2.11;1.0->org.scalatest#scalatest_2.11;3.0.1 [compile->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scalactic#scalactic_2.11;3.0.1 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scalactic#scalactic_2.11;3.0.1 [compile->compile(*)]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scalactic#scalactic_2.11;3.0.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scalactic#scalactic_2.11;3.0.1 [runtime->compile]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies default#akka-demo01_2.11;1.0->org.scalatest#scalatest_2.11;3.0.1 [compile->master]
 [debug] == resolving dependencies for default#akka-demo01_2.11;1.0 [optional]
 [debug] == resolving dependencies for default#akka-demo01_2.11;1.0 [provided]
 [debug] resolving dependencies for configuration 'runtime-internal'
@@ -289,6 +480,56 @@
 [debug] == resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.17->com.typesafe.akka#akka-actor_2.11;2.4.17 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.17->com.typesafe.akka#akka-actor_2.11;2.4.17 [runtime->compile]
 [debug] == resolving dependencies default#akka-demo01_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.17 [compile->master]
+[debug] == resolving dependencies default#akka-demo01_2.11;1.0->org.scalatest#scalatest_2.11;3.0.1 [compile->default(compile)]
+[debug] == resolving dependencies default#akka-demo01_2.11;1.0->org.scalatest#scalatest_2.11;3.0.1 [compile->runtime]
+[debug] == resolving dependencies default#akka-demo01_2.11;1.0->org.scalatest#scalatest_2.11;3.0.1 [compile->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scalactic#scalactic_2.11;3.0.1 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scalactic#scalactic_2.11;3.0.1 [compile->compile(*)]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scalactic#scalactic_2.11;3.0.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scalactic#scalactic_2.11;3.0.1 [runtime->compile]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies default#akka-demo01_2.11;1.0->org.scalatest#scalatest_2.11;3.0.1 [compile->master]
 [debug] == resolving dependencies for default#akka-demo01_2.11;1.0 [optional]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for default#akka-demo01_2.11;1.0 [test-internal]
@@ -334,6 +575,56 @@
 [debug] == resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.17->com.typesafe.akka#akka-actor_2.11;2.4.17 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.17->com.typesafe.akka#akka-actor_2.11;2.4.17 [runtime->compile]
 [debug] == resolving dependencies default#akka-demo01_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.17 [compile->master]
+[debug] == resolving dependencies default#akka-demo01_2.11;1.0->org.scalatest#scalatest_2.11;3.0.1 [compile->default(compile)]
+[debug] == resolving dependencies default#akka-demo01_2.11;1.0->org.scalatest#scalatest_2.11;3.0.1 [compile->runtime]
+[debug] == resolving dependencies default#akka-demo01_2.11;1.0->org.scalatest#scalatest_2.11;3.0.1 [compile->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scalactic#scalactic_2.11;3.0.1 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scalactic#scalactic_2.11;3.0.1 [compile->compile(*)]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scalactic#scalactic_2.11;3.0.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scalactic#scalactic_2.11;3.0.1 [runtime->compile]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalactic#scalactic_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.5->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;3.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies default#akka-demo01_2.11;1.0->org.scalatest#scalatest_2.11;3.0.1 [compile->master]
 [debug] == resolving dependencies for default#akka-demo01_2.11;1.0 [optional]
 [debug] == resolving dependencies for default#akka-demo01_2.11;1.0 [provided]
 [debug] resolving dependencies for configuration 'plugin'
@@ -361,18 +652,9 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->optional(default)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)]
-[info] Resolving org.scala-lang#scala-reflect;2.11.8 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.8
-[debug] 	found org.scala-lang#scala-reflect;2.11.8 in sbt-chain
-[debug] 	[2.11.8] org.scala-lang#scala-reflect;2.11.8
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [compile->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [compile->compile]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -389,28 +671,24 @@
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)]
-[info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
-[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile]
 [debug] == resolving dependencies default#akka-demo01_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->master]
 [debug] == resolving dependencies default#akka-demo01_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->optional(default)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->jline#jline;2.12.1 [optional->master(compile)]
@@ -427,26 +705,19 @@
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.17/akka-actor_2.11-2.4.17.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.17/akka-actor_2.11-2.4.17.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.17/akka-actor_2.11-2.4.17.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.17/akka-actor_2.11-2.4.17.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.17/akka-actor_2.11-2.4.17.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.11;2.4.17!akka-actor_2.11.jar (23089ms)
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.4.17/akka-testkit_2.11-2.4.17.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.4.17/akka-testkit_2.11-2.4.17.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.4.17/akka-testkit_2.11-2.4.17.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.4.17/akka-testkit_2.11-2.4.17.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.4.17/akka-testkit_2.11-2.4.17.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-testkit_2.11;2.4.17!akka-testkit_2.11.jar (3513ms)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.4.17!akka-actor_2.11.jar
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.4.17!akka-testkit_2.11.jar
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.11;3.0.1!scalatest_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] com.typesafe#config;1.3.0!config.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.11;0.7.0!scala-java8-compat_2.11.jar(bundle)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar
+[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.11;3.0.1!scalactic_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.5!scala-xml_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
-[debug] :: resolution report :: resolve 123187ms :: artifacts dl 26627ms
+[debug] :: resolution report :: resolve 700ms :: artifacts dl 68ms
 [debug] 	report for default#akka-demo01_2.11;1.0 compile produced in /home/knoldus/Documents/KIPSolutions/slick/akka-demo01/target/resolution-cache/reports/default-akka-demo01_2.11-compile.xml
 [debug] 	report for default#akka-demo01_2.11;1.0 runtime produced in /home/knoldus/Documents/KIPSolutions/slick/akka-demo01/target/resolution-cache/reports/default-akka-demo01_2.11-runtime.xml
 [debug] 	report for default#akka-demo01_2.11;1.0 test produced in /home/knoldus/Documents/KIPSolutions/slick/akka-demo01/target/resolution-cache/reports/default-akka-demo01_2.11-test.xml
@@ -460,5 +731,5 @@
 [debug] 	report for default#akka-demo01_2.11;1.0 docs produced in /home/knoldus/Documents/KIPSolutions/slick/akka-demo01/target/resolution-cache/reports/default-akka-demo01_2.11-docs.xml
 [debug] 	report for default#akka-demo01_2.11;1.0 pom produced in /home/knoldus/Documents/KIPSolutions/slick/akka-demo01/target/resolution-cache/reports/default-akka-demo01_2.11-pom.xml
 [debug] 	report for default#akka-demo01_2.11;1.0 scala-tool produced in /home/knoldus/Documents/KIPSolutions/slick/akka-demo01/target/resolution-cache/reports/default-akka-demo01_2.11-scala-tool.xml
-[debug] 	resolve done (123187ms resolve - 26627ms download)
+[debug] 	resolve done (700ms resolve - 68ms download)
 [info] Done updating.

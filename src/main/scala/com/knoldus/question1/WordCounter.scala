@@ -8,38 +8,42 @@ import scala.concurrent.duration._
 import scala.concurrent.ExecutionContext.Implicits.global
 import akka.pattern.ask
 
-object WordCountingSystem extends App{
+import scala.io.Source
+
+object WordCounter extends App{
   val system = ActorSystem("WordCountingSystem")
 
   //Q1
-  val propsAdder = Props[Adder]
+  val propsAdder = Props[FileWordCounter]
   val refAdder = system.actorOf(propsAdder)
   implicit val timeout = Timeout(10 seconds)
-  val count = refAdder ? ("This is a simple   sentence\nAnd i like as well as love it")
+  val count = refAdder ? ("./src/main/resources/demo.txt")
+//  val count = refAdder ? ("This is a simple   sentence\nAnd i like as well as love it")
   count.map(x=>println("Total count of words is: "+x))
 }
 
-class WordCountingSystem extends Actor{
+class WordCounter extends Actor{
   var counter = 0;
   override def receive: Receive = {
     case string:String => {
       val length = string.split("[ ,!.]+").size
       sender() ! length
     }
-    case msg => println("msg: "+msg+ ", "+msg.getClass)
+    case msg => sender() ! "I don't understand?"
   }
 }
 
-class Adder extends Actor{
+class FileWordCounter extends Actor{
   var count = 0;
   var total = 0;
 
   override def receive: Receive = {
-    case text: String => {
-      val sentences = text.split("\n")
+    case path: String => {
+      val sentences = Source.fromFile(path).getLines().toList
+//      val sentences = text.split("\n")
       total = sentences.length
       implicit val timeout = Timeout(10 seconds)
-      val listOfFuture = (for(i <- sentences.indices) yield context.actorOf(RoundRobinPool(5).props(Props[WordCountingSystem])) ? sentences(i)).toList
+      val listOfFuture = (for(i <- sentences.indices) yield context.actorOf(RoundRobinPool(5).props(Props[WordCounter])) ? sentences(i)).toList
       val futureOfList = Future.sequence(listOfFuture)
       Await.result(futureOfList.map{_ map{
         case x:Int => count+=x
@@ -47,5 +51,7 @@ class Adder extends Actor{
       sender() ! count
     }
     case _ => sender() ! "I don't understand?"
+
   }
+
 }
